@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact — Muhammad Sohaib</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html">Muhammad Sohaib</a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Contact Me</h1>
+        <p class="lead">Have a question or want to work together? Send a message — I reply quickly.</p>
+
+        <form class="contact-form" action="https://formsubmit.co/m.sohaib20631@gmail.com" method="POST">
+
+            <input type="hidden" name="_subject" value="New message from portfolio contact form">
+            <input type="hidden" name="_captcha" value="false">
+
+            <label>Name
+                <input type="text" name="name" required placeholder="Your name">
+            </label>
+
+            <label>Email
+                <input type="email" name="email" required placeholder="you@example.com">
+            </label>
+
+            <label>Message
+                <textarea name="message" required rows="6" placeholder="Write your message..."></textarea>
+            </label>
+
+            <button class="btn" type="submit">Send Message</button>
+        </form>
+
+        <p class="muted">Or email directly: <a href="mailto:m.sohaib20631@gmail.com">m.sohaib20631@gmail.com</a></p>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year4"></span> — Reach out on LinkedIn / GitHub</p>
+        </div>
+    </footer>
+
+    <script>document.getElementById('year4').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Projects — Muhammad Sohaib</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html">Muhammad Sohaib</a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Projects</h1>
+
+        <div class="project-list">
+            <article class="project-card">
+                <h2>Rental System (JSP)</h2>
+                <p>Complete CRUD rental system using JSP + XAMPP + Tomcat. Features: user registration, property
+                    posting, requirement matching with email alerts.</p>
+                <p class="muted">Technologies: JSP, MySQL, Tomcat, Java</p>
+            </article>
+
+            <article class="project-card">
+                <h2>Smart Message App</h2>
+                <p>Android messaging app with multiple activities, animations, and a modern UI.</p>
+                <p class="muted">Technologies: Java (Android)</p>
+            </article>
+
+            <article class="project-card">
+                <h2>Walk Tracker</h2>
+                <p>Step counter + distance + calories + location tracking in a single Java file app with TTS feedback.
+                </p>
+                <p class="muted">Technologies: Java, Android Sensors, GPS</p>
+            </article>
+
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year3"></span> Muhammad Sohaib — Projects</p>
+        </div>
+    </footer>
+
+    <script>document.getElementById('year3').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

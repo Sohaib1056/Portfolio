@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Muhammad Sohaib — Software Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html">Muhammad Sohaib</a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-left">
+                    <h1>Hi — I'm <span class="accent">Muhammad
+                            Sohaib</span></h1>
+                    <p class="lead">
+                        Software Engineer • BS IT Final Year •
+                        Gujranwala<br>
+                        I build clean, efficient apps and solve problems
+                        using OOP, DSA, Python, HTML & CSS.
+                    </p>
+
+                    <div class="quick-links">
+                        <a class="btn" href="projects.html">View
+                            Projects</a>
+                        <a class="btn ghost" href="about.html">About Me</a>
+                    </div>
+
+                    <ul class="skill-chips">
+                        <li>OOP</li>
+                        <li>DSA</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Python</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+
+                <div class="hero-right">
+                    <div class="avatar-wrap">
+                        <img src="photo.jpg" alt="Muhammad Sohaib" class="avatar">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured container">
+            <h2>Featured</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Rental System (JSP + XAMPP)</h3>
+                    <p>Full CRUD rental app with matching logic and email
+                        notifications. Built for Tomcat/XAMPP.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Smart Message App (Android)</h3>
+                    <p>Multi-activity messaging app with animations and
+                        colorful UI.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Walk Tracker App</h3>
+                    <p>Single-file Java app: step counting, distance,
+                        calories and location tracking.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="mini-cta">
+            <div class="container">
+                <p>Want the full resume or project links? <a href="contact.html">Contact me</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> Muhammad Sohaib — Developer•
+                Gujranwala Pakistan</p>
+        </div>
+    </footer>
+
+    <script>
+
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

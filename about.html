@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About — Muhammad Sohaib</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html">Muhammad Sohaib</a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link active">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container about-page">
+        <h1>About Me</h1>
+        <div class="about-grid">
+            <div class="left">
+                <img src="photo.jpg" alt="Photo" class="about-photo">
+            </div>
+            <div class="right">
+                <p class="lead">
+                    I'm a Developer of full-stack small-to-medium apps from Gujranwala and a BS IT
+                    final year student. I have experience with OOP,
+                    data structures, algorithms, Python, HTML, CSS, JavaScript, Python also Java and
+                    building web & mobile apps.
+                </p>
+
+                <h3>What I do</h3>
+                <ul class="bullets">
+                    <li>Develop full-stack small-to-medium apps</li>
+                    <li>Design clean UI & implement solid logic</li>
+                    <li>Work on Android and web projects</li>
+                </ul>
+
+                <h3>Skills & Technologies</h3>
+                <ul class="bullets">
+                    <li>OOP, DSA, Problem Solving</li>
+                    <li>HTML, CSS, JavaScript (basic)</li>
+                    <li>Python, Java</li>
+                    <li>MySQL, Git, VS Code</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year2"></span> Muhammad Sohaib</p>
+            <p class="small">Want project details? <a href="projects.html">Projects</a> • <a
+                    href="contact.html">Contact</a></p>
+        </div>
+    </footer>
+
+    <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
